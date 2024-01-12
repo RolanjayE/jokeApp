@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 900px;
+    margin: 0 auto;
+}
+
+.main {
+    width: 100%;
+    max-width: 330px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+header {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.joke {
+    padding: 1rem 0rem;
+    justify-content: center;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
